@@ -1,0 +1,80 @@
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.grid {
+  display: grid;
+  height: 100%;
+  gap: 20px;
+}
+
+.btn {
+  padding: 1vh 2vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+/* Title & Subtitle */
+.title {
+  font-size: 3rem;
+}
+.subtitle {
+  font-size: 1.125rem;
+  color: #5a5a5a;
+  font-weight: 400;
+}
+/* Background */
+.bg-primary {
+  background-color: #fff;
+  color: var(--dark-color);
+}
+.bg-secundary {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+.bg-terciary {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+}
+/* Margin and Padding */
+.my-1 {
+  margin: 0.5em 0em;
+}
+.my-2 {
+  margin: 1.25em 0em;
+}
+.my-3 {
+  margin: 2em 0em;
+}
+.my-4 {
+  margin: 3em 0em;
+}
+.my-5 {
+  margin: 4em 0em;
+}
+.py-1 {
+  padding: 0.5em 0em;
+}
+.py-2 {
+  padding: 1.25em 0em;
+}
+.py-3 {
+  padding: 2em 0em;
+}
+.py-4 {
+  padding: 3em 0em;
+}
+.py-5 {
+  padding: 4em 0em;
+}
+/* Text align */
+.text-center {
+  text-align: center;
+}

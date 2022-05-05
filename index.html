@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utilities.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="index.js" defer></script>
+
+    <title>eCommerce</title>
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <div class="navbar flex">
+        <div class="logo">Fashion</div>
+        <nav class="nav_list">
+          <ul class="flex">
+            <li><a href="">Men</a></li>
+            <li><a href="">Women</a></li>
+            <li><a href="">Shipping</a></li>
+            <li><a href="">Lifestyle</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <form class="flex">
+          <input type="text" placeholder="Search" />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="flex" id="icons">
+          <a href="/cart"><i class="fas fa-cart-arrow-down"></i></a>
+          <a href="/favorite"><i class="fa-regular fa-heart"></i></a>
+        </div>
+        <div id="mobile-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- Showcase -->
+    <section class="showcase">
+      <div class="flex">
+        <div class="showcase_woman">
+          <button class="btn bg-primary">Shop for her</button>
+        </div>
+        <div class="showcase_man">
+          <button class="btn bg-secundary">Shop for him</button>
+        </div>
+      </div>
+    </section>
+    <!-- Sale Banner -->
+    <article class="bg-secundary">
+      <div class="flex py-3">
+        <h3>
+          Up to <span class="porcentage">40%</span> Off
+          <span class="sale">Sale!</span>
+        </h3>
+        <aside class="flex py-2">
+          <div class="box_banner text-center">
+            <i class="fa-solid fa-truck-fast"></i>
+            <p>Free & Fast Shipping</p>
+          </div>
+          <div class="box_banner text-center">
+            <i class="fa-solid fa-box-open"></i>
+            <p>30-days Free Return</p>
+          </div>
+          <div class="box_banner text-center">
+            <i class="fa-solid fa-lock"></i>
+            <p>100% Secure Shopping</p>
+          </div>
+        </aside>
+      </div>
+    </article>
+    <!-- New Collection -->
+    <section class="grid_collections">
+      <div class="container grid py-4">
+        <div class="box_collection" id="box1">
+          <button class="btn bg-terciary">accessories</button>
+        </div>
+        <div class="box_collection" id="box2">
+          <button class="btn bg-terciary">summer sale</button>
+        </div>
+        <div class="box_collection" id="box3">
+          <button class="btn bg-terciary">new arrivals</button>
+        </div>
+        <div class="box_collection" id="box4">
+          <button class="btn bg-terciary">men's jeans</button>
+        </div>
+      </div>
+    </section>
+    <!-- Best Sellers -->
+    <section class="sellers py-3">
+      <div class="container">
+        <h2 class="title text-center">Best Sellers</h2>
+        <p class="subtitle text-center">
+          Check out most promissing bought by our buyers
+        </p>
+        <div class="grid py-2">
+          <div class="box_seller">
+            <img
+              loading="lazy"
+              src="https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="man overcoat"
+            />
+            <p class="subtitle">
+              Men
+              <span class="stars"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+            </p>
+            <h4>Black overcoat</h4>
+            <p class="prices">$120</p>
+            <s>$150</s>
+          </div>
+          <div class="box_seller">
+            <img
+              loading="lazy"
+              src="https://images.pexels.com/photos/5736969/pexels-photo-5736969.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Homem de terno"
+            />
+            <p class="subtitle">
+              Men
+              <span class="stars"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+            </p>
+            <h4>White suit</h4>
+            <p class="prices">$130</p>
+            <s>$150</s>
+          </div>
+          <div class="box_seller">
+            <img
+              loading="lazy"
+              src="https://images.pexels.com/photos/3376116/pexels-photo-3376116.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Mulher vestida"
+            />
+            <p class="subtitle">
+              Women
+              <span class="stars"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+            </p>
+            <h4>Summer combo</h4>
+            <p class="prices">$80</p>
+            <s>$120</s>
+          </div>
+
+          <div class="box_seller">
+            <img
+              loading="lazy"
+              src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="Mulher em pé"
+            />
+            <p class="subtitle">
+              Women
+              <span class="stars"
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i
+              ></span>
+            </p>
+            <h4>Feather outfit</h4>
+            <p class="prices">$120</p>
+            <s>$150</s>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe Newsletters -->
+    <section class="newsletters">
+      <div class="flex">
+        <div>
+          <h2 class="title text-center">Best Sellers</h2>
+          <p class="subtitle text-center">
+            Check out most promissing bought by our buyers
+          </p>
+        </div>
+        <form class="flex">
+          <input type="text" placeholder="Email" />
+          <button><i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
+    <!-- Trending Collection -->
+    <section class="trending-collection py-3">
+      <div class="container flex">
+        <div class="header-trending-collection">
+          <h2 class="title text-center">Trending Collection</h2>
+          <p class="subtitle text-center">
+            Check out most trending collection of this month
+          </p>
+        </div>
+        <ul class="show-products flex py-2">
+          <li class="box-collection flex">
+            <img
+              loading="lazy"
+              src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="purse"
+            />
+            <h4>Purses</h4>
+          </li>
+          <li class="box-collection flex">
+            <img
+              loading="lazy"
+              src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="shoes"
+            />
+            <h4>Shoes</h4>
+          </li>
+          <li class="box-collection flex">
+            <img
+              loading="lazy"
+              src="https://images.pexels.com/photos/1676126/pexels-photo-1676126.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt="accessories"
+            />
+            <h4>Accessories</h4>
+          </li>
+          <li class="box-collection flex">
+            <img
+              loading="lazy"
+              src="https://images.pexels.com/photos/4210866/pexels-photo-4210866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              alt="jeans"
+            />
+            <h4>Jeans</h4>
+          </li>
+        </ul>
+        <button class="btn bg-terciary">check collections</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container flex py-4">
+        <div class="social">
+          <div class="logo">Fashion</div>
+          <div class="my-2">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="topics flex">
+          <ul class="footer-help">
+            <h4>Help</h4>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Shipping & Delivery</a></li>
+            <li><a href="">Refund Policy</a></li>
+            <li><a href="">Track Your Order</a></li>
+          </ul>
+          <ul class="store">
+            <h4>Store</h4>
+            <li><a href="">Men Fashion</a></li>
+            <li><a href="">Women Fashion</a></li>
+            <li><a href="">Store Sale</a></li>
+            <li><a href="">Collections</a></li>
+          </ul>
+          <ul class="support">
+            <h4>Support</h4>
+            <li><a href="">Feedback</a></li>
+            <li><a href="">Constact Us</a></li>
+            <li><a href="">Customer Service</a></li>
+            <li><a href="">Terms & condition</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
